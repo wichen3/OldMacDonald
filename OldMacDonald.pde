@@ -1,7 +1,8 @@
 
 void setup()
 {
-	Cow c = new Cow("Cow", "Moo");
-	System.out.println(c.getType() + " goes " + c.getSound());  
+	Cow c = new Cow("Cow", "moo");
+	Farm d = new Farm();
+	d.animalSounds();
 }
 
